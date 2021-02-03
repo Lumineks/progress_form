@@ -26,7 +26,7 @@ points.forEach((point) => {
       for (let i = 0; i < dataOrder; i++) {
         steps[i].classList.add('done');
       }
-
+  currentStep = dataOrder;
       steps[dataOrder].classList.add('active');
     }
   });
